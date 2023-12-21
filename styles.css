@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+}
+
+.sektionEins{
+    
+}
+
+.sektionZwei{
+    display: flex;
+}
+
+.sektionDrei{
+    background: #e5e7eb;
+}
+
+.sektionVier{}
+
+.footer{}
+
+.sektionEins,
+.header ,
+.footer {
+    background: #1F2937;
+    color: #F9FAF8;
+
+}
