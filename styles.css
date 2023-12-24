@@ -25,7 +25,15 @@ a{
 }
 
 .sektionEins{
-    
+    display: flex ;
+    padding: 20px;
+}
+
+.textSektion{
+
+}
+
+.bildSektion{
 }
 
 .sektionZwei{
