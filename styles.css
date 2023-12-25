@@ -1,12 +1,18 @@
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
+
+
 
 .header{
     display: flex;
     justify-content: space-between;
     padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
     align-items: center;
 }
 
@@ -25,8 +31,7 @@ a{
 }
 
 .sektionEins{
-    display: flex ;
-    padding: 20px;
+    padding: 40px;
 }
 
 .textSektion{
@@ -37,14 +42,40 @@ a{
 }
 
 .sektionZwei{
-    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
+
+.title{
+    margin-bottom: 32px ;
+}
+
+.container{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+
+}
+
+.info{
+    max-width: 150px;
+}
+
+
 
 .sektionDrei{
     background: #e5e7eb;
 }
 
 .sektionVier{}
+
+.sektionEins,
+.sektionZwei,
+.sektionDrei,
+.sektionVier{
+    display: flex;
+    flex:1;
+}
 
 .footer{}
 
@@ -53,5 +84,4 @@ a{
 .footer {
     background: #1F2937;
     color: #F9FAF8;
-
 }
