@@ -10,7 +10,6 @@ body {
 .header{
     display: flex;
     justify-content: space-between;
-    
     padding-left: 40px;
     padding-right: 40px;
     align-items: center;
@@ -60,12 +59,6 @@ a{
     font-size: 18px;
     color: #e5e7eb;
 }
-.textSektion{
-
-}
-
-.bildSektion{
-}
 
 .sektionZwei{
     flex-direction: column;
@@ -83,7 +76,6 @@ a{
     display: flex;
     gap: 32px;
     justify-content: center;
-
 }
 
 .info{
@@ -96,14 +88,10 @@ a{
 }
 
 
-
-
 .sektionDrei{
     background: #e5e7eb;
-    
     padding: 0px 40px;
     flex-direction: column;
-    
 }
 
 .zitat{
@@ -128,14 +116,11 @@ a{
     align-items: center;
     padding: 8px 40px;
     gap: 32px;
-    
 }
 
 .callToAction{
     margin-bottom: -16px;
 }
-
-
 
 .sektionEins,
 .sektionZwei,
