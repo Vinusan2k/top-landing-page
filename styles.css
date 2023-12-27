@@ -104,7 +104,10 @@ a{
     flex:1;
 }
 
-.footer{}
+.footer{
+    text-align: center;
+    padding: 12px;
+}
 
 .sektionEins,
 .header ,
