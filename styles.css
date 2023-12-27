@@ -10,10 +10,11 @@ body {
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    
     padding-left: 40px;
     padding-right: 40px;
     align-items: center;
+    font-size: 24px;
 }
 
 ul{
@@ -34,6 +35,31 @@ a{
     padding: 40px;
 }
 
+.buttonEins ,
+.buttonZwei {
+    background: #3882F6;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;    
+}
+
+.buttonEins{
+    border: none;
+}
+
+.buttonZwei{
+    border-color: white;
+}
+
+.heroMain{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.heroSub{
+    font-size: 18px;
+    color: #e5e7eb;
+}
 .textSektion{
 
 }
@@ -47,6 +73,9 @@ a{
 }
 
 .title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
     margin-bottom: 16px ;
 }
 
@@ -61,12 +90,18 @@ a{
     max-width: 150px;
 }
 
+.bildRahmen{
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+
 
 
 .sektionDrei{
     background: #e5e7eb;
-    padding: 40px;
-    padding-bottom: 0px;
+    
+    padding: 0px 40px;
     flex-direction: column;
     
 }
@@ -74,6 +109,12 @@ a{
 .zitat{
     margin-top: -40px;
     align-self: flex-end;
+}
+
+.zitatText{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .sektionVier{
